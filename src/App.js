@@ -1,5 +1,4 @@
 import './App.css';
-import { Bottom_Page } from './components/Bottom_Page';
 import CardV1 from './components/CardV1';
 import NavHeader from './components/NavHeader';
 import ProfileInfo from './components/ProfileInfo';
