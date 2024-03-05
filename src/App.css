@@ -249,3 +249,30 @@ En este espaciado se maneja el diseño de la barra de navegación */
 .ImgIcon{
   width: 35%;
 }
+
+.BoxBotton{
+  width: 98vw;
+  margin: 5% 0 10% 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.ImgBott{
+  width: 2%;
+  margin: 0 0.8% 0 5%;
+}
+
+.BoxBottomContent{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+
+  margin: -1% 0 0 0;
+}
+
+.BoxBottomContent p{
+  color: #a1a1a1;
+}
