@@ -25,9 +25,9 @@ const CardV1 = () => {
 
             <div className='BoxLanguagesIconsContent'>
            
-              <div className='BtnIcon'><img src={info.avatarHtml} className='ImgIcon'/></div>
-              <div className='BtnIcon'><img src={info.avatarCss} className='ImgIcon'/></div>
-              <div className='BtnIcon'><img src={info.avatarJs} className='ImgIcon'/></div>
+              <div className='BtnIcon'><img src={info.avatarHtml} className='ImgIcon' alt='AvatarHTML'/></div>
+              <div className='BtnIcon'><img src={info.avatarCss} className='ImgIcon' alt='AvatarCSS'/></div>
+              <div className='BtnIcon'><img src={info.avatarJs} className='ImgIcon' alt='AvatarJS'/></div>
              
               
             </div>
@@ -43,11 +43,11 @@ const CardV1 = () => {
 
           <div className='BoxLanguagesIconsContent'>
            
-           <div className='BtnIcon'><img src={info.avatarHtml} className='ImgIcon'/></div>
-           <div className='BtnIcon'><img src={info.avatarCss} className='ImgIcon'/></div>
-           <div className='BtnIcon'><img src={info.avatarJs} className='ImgIcon'/></div>
-           <div className='BtnIcon'><img src={info.avatarNode} className='ImgIcon'/></div>
-           <div className='BtnIcon'><img src={info.avatarMongo} className='ImgIcon'/></div>
+           <div className='BtnIcon'><img src={info.avatarHtml} className='ImgIcon' alt='AvatarHTML'/></div>
+           <div className='BtnIcon'><img src={info.avatarCss} className='ImgIcon' alt='AvatarCSS'/></div>
+           <div className='BtnIcon'><img src={info.avatarJs} className='ImgIcon' alt='AvatarJS'/></div>
+           <div className='BtnIcon'><img src={info.avatarNode} className='ImgIcon' alt='AvatarNode'/></div>
+           <div className='BtnIcon'><img src={info.avatarMongo} className='ImgIcon' alt='AvatarMongo'/></div>
            
          </div>
           </div>
