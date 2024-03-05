@@ -47,7 +47,7 @@ const CardV1 = () => {
            <div className='BtnIcon'><img src={info.avatarCss} className='ImgIcon' alt='AvatarCSS'/></div>
            <div className='BtnIcon'><img src={info.avatarJs} className='ImgIcon' alt='AvatarJS'/></div>
            <div className='BtnIcon'><img src={info.avatarNode} className='ImgIcon' alt='AvatarNode'/></div>
-           <div className='BtnIcon'><img src={info.avatarMongo} className='ImgIcon' alt='AvatarMongo'/></div>
+           <div className='BtnIcon'><img src={info.avatarMongo} className='ImgIcon' alt='AvatarMongogit'/></div>
            
          </div>
           </div>

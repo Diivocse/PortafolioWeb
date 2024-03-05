@@ -181,6 +181,8 @@ En este espaciado se maneja el diseño de la barra de navegación */
   justify-content: baseline;
   flex-direction: column;
 
+  user-select: none;
+
   border-radius: 20px;
   background-color: #f4f4f4;
 
