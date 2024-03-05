@@ -1,4 +1,4 @@
-import './App.css';git
+import './App.css';
 import CardV1 from './components/CardV1';
 import NavHeader from './components/NavHeader';
 import ProfileInfo from './components/ProfileInfo';
