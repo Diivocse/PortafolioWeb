@@ -204,6 +204,8 @@ En este espaciado se maneja el diseño de la barra de navegación */
 .Imgs{
   max-width: 100%;
   border-radius: 20px;
+
+  user-select: none;
 }
 
 .BoxTextCard{
@@ -233,6 +235,8 @@ En este espaciado se maneja el diseño de la barra de navegación */
   background-color: #a1a1a1;
 
   margin: 0 8px 0 0;
+
+  user-select: none;
 
   transition: 300ms ease-in;
 }
