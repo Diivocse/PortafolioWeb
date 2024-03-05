@@ -21,7 +21,7 @@ const CardV1 = () => {
         <img src='https://i.imgur.com/cCilHN1.png' className='Imgs' alt='si'></img>
           <div className='BoxTextCard'>
           <h2>WEB CONSULTA DE UBICACIÓN DE ESTUDIANTES</h2>
-          <p>Diseño y desarollo FRONT-END de la web de consulta de estudiantes de la Universidad Cooperativa de Colombia</p>
+          <p>Diseño y desarollo FRONT-END de la web de consulta de estudiantes de la Universidad Cooperativa de Colombia. Que permite la ubicación de aulas de clase.</p>
 
             <div className='BoxLanguagesIconsContent'>
            
@@ -39,7 +39,7 @@ const CardV1 = () => {
         <img src='https://i.imgur.com/JeOZOCt.jpeg' className='Imgs' alt='si'></img>
           <div className='BoxTextCard'>
           <h2>SERVICIO CRUD</h2>
-          <p>Diseño y desarrollo FRONT-END, interpretación e implementación del apartado BACK-END para el funcionamiento interno de la web</p>
+          <p>Diseño y desarrollo FRONT-END, interpretación e implementación del apartado BACK-END para el funcionamiento interno del servicio crud.</p>
 
           <div className='BoxLanguagesIconsContent'>
            
