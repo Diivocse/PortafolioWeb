@@ -252,10 +252,13 @@
         align-items: center;
         flex-direction: column;
       }
-      
-      
+            
       .ImgBott{
-        width: 2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 5%;
         margin: 0 0.8% 0 5%;
       }
       
@@ -268,11 +271,283 @@
       }
       
       .BoxBottomContent p{
-        color: #a1a1a1;
+        color: #848484;
       }
+
+}
+
+@media (min-width: 1025px){
+body{
+  background-color: #fff;
+  
+  margin: 0;
+  padding: 0;
+
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ::selection{
+  color: #3399FF;
+  background-color: #161a1d13;
+} */
+
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+
+  width: 60vw;
+
+}
+
+/* APARTADO DEL NAV-HEADER, LOGO 
+
+En este espaciado se maneja el diseño de la barra de navegación */
+
+.NavHeaderContent{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  user-select: none;
+  
+  width: 98vw;
+
+}
+
+.NavHeaderDir{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.NavHeaderDir a{
+  padding: 0 20% 0 20%;
+
+  text-decoration: none;
+  color: #161a1d;
+  transition: 300ms ease-in;
+}
+
+.NavHeaderDir a:hover{
+  background-color: #161a1d;
+  color: #fff;
+}
+
+.BoxNavHeader{
+  width: auto;
+
+  backdrop-filter: blur(10px);
+}
+
+.NavHeaderLogo{
+  display: flex;
+}
+
+.Logo{
+  font-family: "Teko", sans-serif;
+  font-weight: 300;
+
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+
+}
+
+.DO{
+  font-family: "Teko", sans-serif;
+
+  font-weight: 500;
+  font-size: 2.5rem;
+  padding: 0 10px 0 0;
+}
+
+
+
+/* APARTADO DEL PERFIL  */
+
+.BoxProfile{
+  width: auto;
+  height: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  padding: 2.5% 0 0 0;
+}
+
+.BoxProfileContent{
+  display: flex;
+  justify-content:left;
+  align-items:baseline;
+
+  flex-direction: column;
+  text-align: justify;
+  padding: 0 10% 0 3.6%;
+  width: 50%;
+}
+
+.BoxProfileContent h1{
+  margin: -30px 0px -15px 0px;
+  text-transform: uppercase;
+
+  font-family: "Teko", sans-serif;
+  font-weight: 700;
+
+  font-size: 45px;
+}
+
+.BoxProfileAvatar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  width: 20%;
+
+}
+
+.ProfileAvatarImg{
+  width: 100%;
+  height: 100%;
+
+  border-radius: 200px;
+  background-color: #161a1d;
+
+  box-shadow: 0px 29px 17px -15px rgba(0,0,0,0.36);
 
 }
 
 
 
+/* APARTADO PARA EL DISEÑO DE LAS CARD (EXPERIENCIAS) */
 
+.BoxCard{
+  width: auto;
+
+
+  display: flex; /* o display: grid; */
+  justify-content: space-between; /* o ajusta según tus necesidades */
+/*   display: flex;
+  justify-content: center;
+  align-items: center; */
+
+  margin: 8% 0 10% 0;
+}
+
+.CardContent{
+
+  flex: 0 0 48%; /* o ajusta según tus necesidades */
+/*   width: 45%;
+  width: 45%; */
+  /* width: 27vw; */
+  /* height: 50vh; */
+  
+  display: flex;
+  justify-content: baseline;
+  flex-direction: column;
+
+  user-select: none;
+
+  border-radius: 20px;
+  background-color: #f4f4f4;
+
+  box-shadow: 0px 29px 17px -15px rgba(0,0,0,0.20);
+
+  margin: 0 1% 0 1%;
+
+  transition: 500ms ease;
+}
+
+.CardContent:hover{
+  transform: scale(1.05);
+}
+
+.CardContent p{
+  margin: -3% 0 15% 0;
+}
+
+.Imgs{
+  max-width: 100%;
+  border-radius: 20px;
+
+  user-select: none;
+}
+
+.BoxTextCard{
+  padding: 5%;
+
+  font-size: 0.8rem;
+}
+
+
+
+/* Apartado de botón */
+
+
+.BoxLanguagesIconsContent{
+  display: flex;
+}
+
+.BtnIcon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  width: 5vw;
+  height: 5vh;
+  
+  border-radius: 20px;
+  background-color: #a1a1a1;
+
+  margin: 0 8px 0 0;
+
+  user-select: none;
+
+  transition: 300ms ease-in;
+}
+
+.BtnIcon:hover{
+  transform: scale(1.1);
+}
+
+
+.ImgIcon{
+  width: 35%;
+}
+
+.BoxBotton{
+  width: 98vw;
+  margin: 5% 0 10% 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.ImgBott{
+  width: 2%;
+  margin: 0 0.8% 0 5%;
+}
+
+.BoxBottomContent{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+
+  margin: -1% 0 0 0;
+}
+
+.BoxBottomContent p{
+  color: #a1a1a1;
+}
+}
