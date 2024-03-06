@@ -1,4 +1,5 @@
-import './App.css';
+/* import './App.css'; */
+import './AppRes.css'; 
 import BottomPage from './components/BottomPage';
 import CardV1 from './components/CardV1';
 import NavHeader from './components/NavHeader';
